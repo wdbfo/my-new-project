@@ -2,73 +2,86 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# Project Title: energy-related refurbishment measures: Control of thermal bridging
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+When renovating residential buildings for energy efficiency, the programme is intended to compare the specific thermal conductivity of renovation components with existing building components in order to exclude thermal bridges during the preliminary assessment.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Problem -Thermal bridging due to different thermal conductivities 
+One cause of thermal bridging is the difference in the greatly varying thermal conductivity of building components. A thermal bridge is an area in a building component that conducts heat better and therefore transports heat to the outside faster than the neighbouring components. As a result, the affected component cools down more quickly and has a lower temperature than its surroundings. If the temperature falls below the dew point, the moisture contained in the room air condenses on the building component.
+The resulting increase in material moisture often leads to the formation of mould on thermal bridges and thus to damage in the event of uncoordinated energy-efficient renovations. 
+Thermal bridges are a frequent problem in building practice, especially in older buildings or in the case of improper energy-efficient refurbishment. They can occur in various areas, such as windows, doors, walls and near roof connections.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Motivation for the topic:
+The trend towards energy-efficient refurbishment in both residential and non-residential buildings has been fuelled by the energy crisis in recent years. With this small project, I would like to give everyone the opportunity to critically examine the topic of thermal bridging in relation to the aspect described.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+As part of the project ‘Energetic refurbishment measures: Control of thermal bridging’, a systematic approach is taken to identify and control thermal bridges. Here are the main steps for using the project:
+1. data collection: first, the specific thermal conductivities of the building's existing components are recorded. This includes materials such as walls, windows and roofs.
+2. comparative analysis: The collected data is compared with the thermal conductivities of the planned refurbishment components. The aim is to recognise significant differences that could indicate potential thermal bridges.
+3. simulation and modelling: Using software tools, simulations can be carried out to model the effects of thermal bridges on the overall efficiency of the building. This helps to visualise critical areas.
+4. planning of measures: Based on the results of the analysis, targeted refurbishment measures are developed to minimise or eliminate thermal bridges. This can include the selection of suitable materials or the adaptation of the construction method.
+5. monitoring and control: Once the refurbishment measures have been implemented, the thermal conductivity and moisture levels are continuously monitored to ensure that no new thermal bridges are created.
+6. documentation and training: The results and methods are documented to serve as a guide for other professionals and building owners. Training can be provided to raise awareness of the problem of thermal bridging.
+   
+This structured approach will ensure that thermal bridging is identified early and controlled effectively to improve the energy efficiency of the building and minimise health risks.
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+Data sources:
+1. own data collection:
+o On-site measurements: The specific thermal conductivities of existing building components are recorded by physical measurements in the buildings. This can be done by thermography or heat flow measurements.
+o Surveys: Information on construction methods and materials can be collected through interviews with building owners or architects.
+2. secondary data:
+o Literature and technical articles: Data on thermal conductivities of materials can be obtained from scientific publications, standards and technical manuals.
+o Databases: Existing databases that provide information on materials and their thermal properties can also be used.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+AI methods:
+1. data analysis:
+AI methods:
+1. data analysis:
+o Statistical methods: Statistical methods can be used to analyse the collected data in order to identify patterns and correlations.
+2. machine learning:
+o Predictive models: machine learning algorithms can be used to predict the effects of different materials and construction methods on the formation of thermal bridges.
+o Classification: AI models can help classify areas in the building that have a higher risk of thermal bridging.
+3. simulation:
+o Computational Fluid Dynamics (CFD): this method can be used to simulate the heat distribution in the building and identify potential thermal bridges.
+
+By combining in-house data collection with existing data sources and the use of modern AI methods, a comprehensive analysis of thermal bridging is made possible.
 
 ## Challenges
+Challenges:
+1. data availability:
+o The quality and availability of data can vary. In some cases, there may not be enough detailed information on existing building components.
+2. complexity of the buildings:
+o Each building has unique characteristics that can complicate the analysis and prediction of thermal bridges. Standardised models may not be applicable to all buildings.
+3. technical limitations:
+o The technologies used to measure and analyse may be limited in their accuracy and reliability. Incorrect measurements can lead to incorrect conclusions.
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Limitations:
+1. limited generalisability:
+o Results that apply to a specific building or type of refurbishment measure may not be transferable to other buildings.
+2. costs:
+o Implementing comprehensive data analyses and AI methods can be costly, which could limit implementation in smaller projects.
 
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+Ethical considerations:
+1. data protection:
+o When collecting data, especially through surveys or measurements in existing buildings, data protection regulations must be observed. The privacy of residents should be respected.
+2. transparency:
+o The methods and results of the project should be communicated transparently in order to gain the trust of stakeholders and avoid misunderstandings.
+3. sustainability:
+o Care should be taken to ensure that the proposed refurbishment measures are not only energy efficient, but also environmentally friendly and sustainable.
+4. responsibility:
+o Responsibility for implementing the recommendations should be clearly defined to ensure that the measures are implemented properly and that no new problems arise.
+By being aware of these challenges, limitations and ethical considerations, the project can be made more effective and the risks minimised.
 
 ## Acknowledgments
 
