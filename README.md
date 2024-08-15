@@ -34,7 +34,6 @@ As part of the project ‘Energetic refurbishment measures: Control of thermal b
    
 This structured approach will ensure that thermal bridging is identified early and controlled effectively to improve the energy efficiency of the building and minimise health risks.
 
-
 ## Data sources and AI methods
 Data sources:
 1. own data collection:
@@ -83,10 +82,40 @@ o Care should be taken to ensure that the proposed refurbishment measures are no
 o Responsibility for implementing the recommendations should be clearly defined to ensure that the measures are implemented properly and that no new problems arise.
 By being aware of these challenges, limitations and ethical considerations, the project can be made more effective and the risks minimised.
 
+## What´s next:
+
+Potential Growth Areas:
+
+Broader Application:
+Extend the project to include a wider range of building types, such as commercial buildings or historical structures, to analyze and mitigate heat bridge issues in different contexts.
+Integration of Advanced Technologies:
+
+Utilize IoT devices for real-time monitoring of temperature and humidity in buildings to gather continuous data, allowing for more dynamic assessments of heat bridges.
+Collaboration with Industry:
+
+Partner with construction companies, architects, and energy consultants to implement findings in real-world projects, facilitating practical applications of the research.
+
+Educational Outreach:
+
+Develop training programs or workshops for builders, architects, and homeowners to raise awareness about the importance of heat bridge control and effective insulation techniques.
+Policy Advocacy:
+Work with policymakers to influence building codes and regulations, promoting standards that minimize heat bridge formation in new constructions and renovations.
+
+Skills Needed:
+Data Science and Analytics:
+Expertise in data analysis, machine learning, and statistical methods to interpret complex data sets and develop predictive models.
+Building Physics:
+Knowledge of thermodynamics, building materials, and construction practices to better understand the mechanisms behind heat transfer and bridge formation.
+Project Management:
+Skills in managing multi-disciplinary teams and coordinating efforts among various stakeholders, including contractors, engineers, and policymakers.
+Communication:
+
+Strong skills in conveying technical information to non-experts, ensuring that findings are accessible and actionable for a broader audience.
+
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* sources of inspiration:
+  https://de.wikipedia.org/wiki/W%C3%A4rmebr%C3%BCcke
+  https://baumit.de/loesungen/saniersysteme/waermebruecken
+
+
